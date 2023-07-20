@@ -1,0 +1,23 @@
+.custom-card {
+  border: 1px solid #ccc;
+  width: 200px;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-image-passed {
+  width: 50%;
+  height: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-link {
+  text-decoration: none;
+}

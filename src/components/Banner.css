@@ -1,0 +1,18 @@
+@keyframes riseAnimation {
+    from {
+      transform: translateY(30%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
